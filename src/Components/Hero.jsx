@@ -54,9 +54,13 @@ function Hero() {
            <button className='bg-lightning-aqua-600 text-gray-700 hover:bg-transparent
             hover:text-lightning-aqua-600 transform transition duration-500 border border-lightning-aqua-600 px-4 py-2 rounded-full font-semibold'>
            <a href="#projects">See My Projects</a></button>
-           <button className='bg-gray-700 text-white hover:bg-transparent
+           <a href="/Rameez Aslam.pdf" download>
+             <button
+            className='bg-gray-700 text-white hover:bg-transparent
             hover:text-gray-700 hover:dark:text-white transform transition duration-500 border border-gray-700 px-4 py-2 rounded-full font-semibold'>
             Resume</button>
+           </a>
+          
        </div>
 </div>
   )
