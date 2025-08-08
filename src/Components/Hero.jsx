@@ -1,6 +1,6 @@
 import React from 'react'
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
-import my_pic from '../Assets/my-pic-2-removebg-preview.png'
+import my_pic from '../assets/my-pic-2-removebg-preview.png'
 import { motion } from 'framer-motion'
 
 function Hero() {
