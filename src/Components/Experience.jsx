@@ -22,7 +22,7 @@ function Experience() {
 
                   <div className="mt-6">
                     <h2 className='text-xl font-semibold text-lightning-aqua-600'>Frontend Developer Intern - DevelopersHub Corporation</h2>
-                    <p className='text-sm text-gray-600 dark:text-gray-400'>March 2024 – May 2024 (Remote)</p>
+                    <p className='text-sm text-gray-600 dark:text-gray-400'>March 2025 – May 2025 (Remote)</p>
                      <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
                          During my remote internship at DevelopersHub, I was tasked with designing a responsive e-commerce website. The focus of the project was on creating an intuitive and user-friendly interface that would be adaptable across various screen sizes.
                     </p>
