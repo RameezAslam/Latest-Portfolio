@@ -33,7 +33,7 @@ const ProjectCard = ({ imgSrc, title, description, link, techstack }) => {
 function Projects() {
 
   return (
-    <div className='container py-8 px-4 mx-auto md:py-12 md:px-16 mt-12'>
+    <div className='container py-8 px-4 mx-auto md:py-12 md:px-16 mt-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg'>
         <section id='projects'
          className='w-full'
          >

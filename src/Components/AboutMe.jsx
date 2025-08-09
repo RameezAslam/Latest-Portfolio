@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 function AboutMe() {
   return (
     <motion.section id="about"
-     className="container px-4 py-8 md:px-16 md:py-12 mx-auto mt-24"
+     className="container px-4 py-8 md:px-16 md:py-12 mx-auto mt-24 dark:bg-gray-800 bg-gray-100 rounded-lg shadow-lg"
         initial={{ opacity: 0, y: 120 }}  
         whileInView={{ opacity: 1, y: 0 }} 
         transition={{ duration: 1 }}  
