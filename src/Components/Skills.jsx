@@ -42,7 +42,7 @@ function Skills() {
           setIsVisible(false);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.25 }
     );
 
     const section = document.querySelector("#skills");
