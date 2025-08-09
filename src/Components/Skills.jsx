@@ -22,7 +22,7 @@ const Skill = ({ logo, skillName, skillLevel }) => (
     </div>
     <div className="w-full bg-gray-200 h-2 rounded-full">
       <div
-        className={`h-full bg-lightning-aqua-600 rounded-full ${skillBarClass}`}
+        className={`h-full bg-lightning-aqua-600 dark:bg-lightning-aqua-700 rounded-full ${skillBarClass}`}
         style={{ width: `${skillLevel}%` }}
       ></div>
     </div>
@@ -42,7 +42,7 @@ function Skills() {
           setIsVisible(false);
         }
       },
-      { threshold: 0.25 }
+      { threshold: 1.0 }
     );
 
     const section = document.querySelector("#skills");
