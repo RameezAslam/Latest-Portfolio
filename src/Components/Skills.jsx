@@ -67,7 +67,7 @@ function Skills() {
             <motion.h1
              initial={{ opacity: 0, x: -180 }}  
             whileInView={{ opacity: 1, x: 0 }} 
-            transition={{ duration: 1 }}  
+            transition={{ duration: 2 }}  
             viewport={{  amount: 0.25 }}
             className='text-4xl text-lightning-aqua-600 font-bold mb-16'>Skills</motion.h1>
              <div className="flex justify-around flex-wrap gap-x-4 gap-y-12 sm:gap-8 md:gap-16">
@@ -130,7 +130,7 @@ function Skills() {
         <motion.h1
            initial={{ opacity: 0, x: -180 }}  
           whileInView={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1 }}  
+          transition={{ duration: 2 }}  
           viewport={{  amount: 0.25 }}
         className='text-4xl text-lightning-aqua-600 font-bold mt-32'>Additional Skills</motion.h1>
         <motion.p

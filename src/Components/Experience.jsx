@@ -14,7 +14,7 @@ function Experience() {
             <motion.h1
                  initial={{ opacity: 0, x: -180 }}  
                 whileInView={{ opacity: 1, x: 0 }} 
-                 transition={{ duration: 1 }}  
+                 transition={{ duration: 2 }}  
                  viewport={{  amount: 0.25 }}
             className='text-4xl text-lightning-aqua-600 font-bold'>Work Experience</motion.h1>
             
