@@ -22,7 +22,7 @@ const Skill = ({ logo, skillName, skillLevel }) => (
     </div>
     <div className="w-full bg-gray-200 h-2 rounded-full">
       <div
-        className={`h-full bg-lightning-aqua-600 dark:bg-lightning-aqua-700 rounded-full ${skillBarClass}`}
+        className={`h-full bg-lightning-aqua-600 rounded-full ${skillBarClass}`}
         style={{ width: `${skillLevel}%` }}
       ></div>
     </div>
@@ -64,7 +64,12 @@ function Skills() {
         transition={{ duration: 1 }}  
         viewport={{  amount: 0.25 }} 
          >
-            <h1 className='text-4xl text-lightning-aqua-600 font-bold mb-16'>Skills</h1>
+            <motion.h1
+             initial={{ opacity: 0, x: -180 }}  
+            whileInView={{ opacity: 1, x: 0 }} 
+            transition={{ duration: 1 }}  
+            viewport={{  amount: 0.25 }}
+            className='text-4xl text-lightning-aqua-600 font-bold mb-16'>Skills</motion.h1>
              <div className="flex justify-around flex-wrap gap-x-4 gap-y-12 sm:gap-8 md:gap-16">
           <Skill
             logo={html_logo}
@@ -122,15 +127,25 @@ function Skills() {
             skillLevel={isVisible ? 70 : 0} 
           />
         </div>
-        <h1 className='text-4xl text-lightning-aqua-600 font-bold mt-32'>Additional Skills</h1>
-        <p className='text-lg text-gray-600 dark:text-gray-400 mt-8'>
+        <motion.h1
+           initial={{ opacity: 0, x: -180 }}  
+          whileInView={{ opacity: 1, x: 0 }} 
+          transition={{ duration: 1 }}  
+          viewport={{  amount: 0.25 }}
+        className='text-4xl text-lightning-aqua-600 font-bold mt-32'>Additional Skills</motion.h1>
+        <motion.p
+           initial={{ opacity: 0, y: 120 }}  
+          whileInView={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 1 }}  
+          viewport={{  amount: 0.25 }}
+         className='text-lg text-gray-600 dark:text-gray-400 mt-8'>
           In addition to the skills showcased above, I am familiar with tools and technologies like <span className='text-gray-800 font-semibold dark:text-white'> 
-            Radix UI, clsx, cn, and twmerge.</span>  As an experienced <span className='text-gray-800 font-semibold dark:text-white'>prompt engineer,</span> 
+            Radix UI, clsx, cn, and twmerge. </span>Currently learning Nextjs and TypeScript.  As an experienced <span className='text-gray-800 font-semibold dark:text-white'>prompt engineer,</span> 
            I leverage <span className='text-gray-800 font-semibold dark:text-white'> AI in my web development process</span>, utilizing platforms like <span className='text-gray-800 font-semibold dark:text-white'> ChatGPT </span>
             for efficient coding, visualizations, and reasoning. I am well-versed in various
            versions of ChatGPT, including <span className='text-gray-800 font-semibold dark:text-white'>GPT-4.0-mini and GPT-4.0-mini-high</span>, and I can strategically choose the
            most suitable version for specific tasks, ensuring optimal results.
-        </p>
+        </motion.p>
 
          </motion.section>   
     </div>

@@ -11,10 +11,20 @@ function Experience() {
         transition={{ duration: 1 }}  
         viewport={{  amount: 0.25 }} 
         >
-            <h1 className='text-4xl text-lightning-aqua-600 font-bold'>Work Experience</h1>
+            <motion.h1
+                 initial={{ opacity: 0, x: -180 }}  
+                whileInView={{ opacity: 1, x: 0 }} 
+                 transition={{ duration: 1 }}  
+                 viewport={{  amount: 0.25 }}
+            className='text-4xl text-lightning-aqua-600 font-bold'>Work Experience</motion.h1>
             
             <div className='mt-8'>
-                <p className='text-lg text-gray-600 dark:text-gray-400'>
+                <p 
+                 initial={{ opacity: 0, y: 120 }}  
+                 whileInView={{ opacity: 1, y: 0 }} 
+                 transition={{ duration: 1 }}  
+                 viewport={{  amount: 0.25 }}
+                 className='text-lg text-gray-600 dark:text-gray-400'>
                     As a passionate frontend developer, I have had the opportunity to work on various challenging and rewarding projects. 
                     My experience spans across building responsive and high-performance web applications, designing interactive user interfaces with ReactJS, integrating APIs, and ensuring seamless cross-browser compatibility. 
                     Throughout my journey, I have focused on delivering clean, maintainable code while optimizing user experiences.
@@ -22,11 +32,26 @@ function Experience() {
 
                   <div className="mt-6">
                     <h2 className='text-xl font-semibold text-lightning-aqua-600'>Frontend Developer Intern - DevelopersHub Corporation</h2>
-                    <p className='text-sm text-gray-600 dark:text-gray-400'>March 2025 – May 2025</p>
-                     <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
+                    <p 
+                     initial={{ opacity: 0, y: 120 }}  
+                    whileInView={{ opacity: 1, y: 0 }} 
+                    transition={{ duration: 1 }}  
+                    viewport={{  amount: 0.25 }}
+                    className='text-sm text-gray-600 dark:text-gray-400'>March 2025 – May 2025</p>
+                     <p 
+                      initial={{ opacity: 0, y: 120 }}  
+                      whileInView={{ opacity: 1, y: 0 }} 
+                      transition={{ duration: 1 }}  
+                     viewport={{  amount: 0.25 }}
+                    className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
                          During my internship at DevelopersHub, I was tasked with designing a responsive e-commerce website. The focus of the project was on creating an intuitive and user-friendly interface that would be adaptable across various screen sizes.
                     </p>
-                    <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
+                    <p 
+                     initial={{ opacity: 0, y: 120 }}  
+                     whileInView={{ opacity: 1, y: 0 }} 
+                     transition={{ duration: 1 }}  
+                     viewport={{  amount: 0.25 }}
+                     className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
                         In the second phase of my internship, I worked on developing the **Nexis Business App**, a platform where entrepreneurs and investors could connect for potential funding opportunities. The app allowed entrepreneurs to seek funding, while investors could explore and support startups.
                     </p>
                     <ul className='list-disc ml-8 text-lg text-gray-600 dark:text-gray-400 mt-2'>
@@ -41,8 +66,18 @@ function Experience() {
 
                 <div className="mt-6">
                     <h2 className='text-xl font-semibold text-lightning-aqua-600'>Frontend Developer Intern - Genius Operators</h2>
-                    <p className='text-sm text-gray-600 dark:text-gray-400'>October 2024 – March 2025</p>
-                    <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
+                    <p 
+                     initial={{ opacity: 0, y: 120 }}  
+                    whileInView={{ opacity: 1, y: 0 }} 
+                    transition={{ duration: 1 }}  
+                    viewport={{  amount: 0.25 }}
+                     className='text-sm text-gray-600 dark:text-gray-400'>October 2024 – March 2025</p>
+                    <p 
+                     initial={{ opacity: 0, y: 120 }}  
+                    whileInView={{ opacity: 1, y: 0 }} 
+                    transition={{ duration: 1 }}  
+                    viewport={{  amount: 0.25 }}
+                        className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
                         During my internship at Genius operators, my main task was to make changes in UI/UX and maintain the frontend part of the websites. The focus was on HTML, CSS, and JavaScript.
                     </p>
                     <ul className='list-disc ml-8 text-lg text-gray-600 dark:text-gray-400 mt-2'>

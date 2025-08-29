@@ -14,7 +14,12 @@ function Contact() {
         transition={{ duration: 1 }}  
         viewport={{  amount: 0.25 }} 
          >
-            <h1 className='text-lightning-aqua-600 text-4xl font-bold'>Get in touch</h1>
+            <motion.h1 
+                 initial={{ opacity: 0, x: -180 }}  
+                whileInView={{ opacity: 1, x: 0 }} 
+                transition={{ duration: 1 }}  
+                viewport={{  amount: 0.25 }}
+            className='text-lightning-aqua-600 text-4xl font-bold'>Get in touch</motion.h1>
             <div className='flex flex-col items-center gap-8 mt-8'>
                 <p className='text-gray-600 dark:text-gray-400 text-lg'>I’m always open to new opportunities and conversations. Whether you have a question, want to collaborate, or just want to chat about tech, feel free to reach out!</p>
                 <div className='flex flex-col gap-4 mt-16 sm:flex-row sm:justify-center items-center sm:gap-12'>

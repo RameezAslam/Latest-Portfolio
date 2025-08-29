@@ -37,7 +37,12 @@ function Projects() {
         <section id='projects'
          className='w-full'
          >
-              <h1 className="text-4xl text-lightning-aqua-600 font-bold mb-8">Projects</h1>
+              <motion.h1 
+                  initial={{ opacity: 0, x: -180 }}  
+                whileInView={{ opacity: 1, x: 0 }} 
+                transition={{ duration: 1 }}  
+                viewport={{  amount: 0.25 }}
+              className="text-4xl text-lightning-aqua-600 font-bold mb-8">Projects</motion.h1>
               <p className='text-lg text-gray-600 dark:text-gray-400 mt-8'>
                 Below, you'll find a selection of my projects that highlight my skills and expertise in frontend development. For a complete list of all my live projects and their corresponding source code, you can explore them on <span className='text-gray-800 font-semibold dark:text-white'> Netlify and GitHub.</span></p>
               <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
