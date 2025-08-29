@@ -22,9 +22,9 @@ function Experience() {
 
                   <div className="mt-6">
                     <h2 className='text-xl font-semibold text-lightning-aqua-600'>Frontend Developer Intern - DevelopersHub Corporation</h2>
-                    <p className='text-sm text-gray-600 dark:text-gray-400'>March 2025 – May 2025 (Remote)</p>
+                    <p className='text-sm text-gray-600 dark:text-gray-400'>March 2025 – May 2025</p>
                      <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
-                         During my remote internship at DevelopersHub, I was tasked with designing a responsive e-commerce website. The focus of the project was on creating an intuitive and user-friendly interface that would be adaptable across various screen sizes.
+                         During my internship at DevelopersHub, I was tasked with designing a responsive e-commerce website. The focus of the project was on creating an intuitive and user-friendly interface that would be adaptable across various screen sizes.
                     </p>
                     <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
                         In the second phase of my internship, I worked on developing the **Nexis Business App**, a platform where entrepreneurs and investors could connect for potential funding opportunities. The app allowed entrepreneurs to seek funding, while investors could explore and support startups.
@@ -40,15 +40,17 @@ function Experience() {
             </div>
 
                 <div className="mt-6">
-                    <h2 className='text-xl font-semibold text-lightning-aqua-600'>Web Development Enthusiast & AI Collaboration</h2>
-                    <p className='text-sm text-gray-600 dark:text-gray-400'>Ongoing</p>
+                    <h2 className='text-xl font-semibold text-lightning-aqua-600'>Frontend Developer Intern - Genius Operators</h2>
+                    <p className='text-sm text-gray-600 dark:text-gray-400'>October 2024 – March 2025</p>
                     <p className='text-lg text-gray-600 dark:text-gray-400 mt-4'>
-                        I actively engage with AI-powered tools, such as ChatGPT, to assist in solving complex coding challenges, generating ideas, and enhancing my overall development workflow. My experience spans from building small applications to optimizing large-scale websites, leveraging AI for efficient problem-solving.
+                        During my internship at Genius operators, my main task was to make changes in UI/UX and maintain the frontend part of the websites. The focus was on HTML, CSS, and JavaScript.
                     </p>
                     <ul className='list-disc ml-8 text-lg text-gray-600 dark:text-gray-400 mt-2'>
-                        <li>Used ChatGPT for improving code quality and providing recommendations on best practices</li>
-                        <li>Collaborated with AI tools for brainstorming features, and designing UI components</li>
-                        <li>Utilized different versions of ChatGPT (GPT-4.0-mini and GPT-4.0-mini-high) based on specific project needs: coding, visual design, or reasoning</li>
+                        <li>Developed and maintained responsive web pages using HTML,CSS, and JavaScript</li>
+                        <li>Collaborated with the team to improve UI/UX designs and ensure cross-browser compatibility.</li>
+                        <li>Learned React.js, Bootstrap, and Tailwind CSS while practicing modern frontend workflows.</li>
+                        <li>Fixed bugs and optimized frontend code to enhance performance.
+                            Used Git/GitHub for version control and project collaboration.</li>
                     </ul>
                 </div>
           </motion.section>   
