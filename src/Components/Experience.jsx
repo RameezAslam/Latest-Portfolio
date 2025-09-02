@@ -37,7 +37,7 @@ function Experience() {
                     whileInView={{ opacity: 1, y: 0 }} 
                     transition={{ duration: 1 }}  
                     viewport={{  amount: 0.25 }}
-                    className='text-sm text-gray-600 dark:text-gray-400'>March 2025 – May 2025</p>
+                    className='text-sm text-gray-600 dark:text-gray-400'>April 2025 – June 2025</p>
                      <p 
                       initial={{ opacity: 0, y: 120 }}  
                       whileInView={{ opacity: 1, y: 0 }} 
